@@ -1,17 +1,29 @@
-# Patient Cohort Explorer: take-home task
+# Patient Cohort Explorer
 
-The full task description was sent to you separately. This repository holds what you need to start.
+A Python API and a React screen that load fake patient data and find groups of patients (cohorts) who match rules defined as JSON.
 
-| Path | What it is |
-| --- | --- |
-| `data/` | The four fake CSV files. No real patients are involved. |
-| `review/` | A small existing service, used for Part 3 (code review) |
+> Work in progress. Sections below are filled in as the project is built.
 
-For Part 3, review the branch `feature/cohort-csv-export`:
+## Run it
 
-```bash
-git diff main...feature/cohort-csv-export
-```
+_TODO: five steps or fewer._
 
-Build your own solution for Parts 1 and 2 in this repository, in any folders you like.
-Commit as you work.
+## Data problems found and how each was handled
+
+_TODO_
+
+## Choices on unclear rules, and why
+
+_TODO_
+
+## AI usage
+
+_TODO: tools and which parts; at least one place the AI was wrong or weak and what was done; decisions made against the AI's suggestion._
+
+## What I would do next with one more day
+
+_TODO_
+
+---
+
+The original task data lives in `data/`. `review/` is the existing service used only for the code review in `REVIEW.md`.
