@@ -4,8 +4,10 @@ from fastapi import Depends, FastAPI, HTTPException
 
 from .auth import User, require_role
 from .db import get_conn
+from .export import router as export_router
 
 app = FastAPI(title="Cohort service")
+app.include_router(export_router)
 
 
 @app.get("/cohorts")
